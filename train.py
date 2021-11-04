@@ -17,7 +17,7 @@ import mlflow.sklearn
 
 remote_server_uri = "http://localhost" # set to your server URI
 mlflow.set_tracking_uri(remote_server_uri)
-mlflow.set_experiment("sklearn")
+mlflow.set_experiment("sklearn2")
 
 def eval_metrics(actual, pred):
     rmse = np.sqrt(mean_squared_error(actual, pred))
